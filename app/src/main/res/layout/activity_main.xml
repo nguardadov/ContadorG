@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="88dp">
+
+        <!--Equipo A -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="@string/equipo_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:fontFamily="monospace"/>
+
+            <TextView
+                android:id="@+id/txvMA"
+                android:text="@string/marcador_1"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="80dp"
+                android:textColor="#000000"
+                android:fontFamily="monospace"/>
+
+            <Button
+                android:id="@+id/txvGA"
+                android:text="@string/Gol"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:background="#1E88E5"/>
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:text="@string/equipo_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:fontFamily="monospace" />
+
+            <TextView
+                android:id="@+id/txvMB"
+                android:text="@string/marcador_2"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="80dp"
+
+
+                android:textColor="#000000"
+                android:fontFamily="monospace"/>
+
+            <Button
+                android:id="@+id/txvGB"
+                android:text="@string/Gol"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:background="#4CAF50"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="top">
+        <Button
+            android:id="@+id/btnReinicar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:layout_margin="36dp"
+            android:text="@string/reiniciar"
+            android:textColor="#FFFFFF"
+            android:background="#607D8B"/>
+    </LinearLayout>
+</LinearLayout>

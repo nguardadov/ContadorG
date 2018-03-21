@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Marcador</string>
+    <string name="equipo_1">Equipo A</string>
+    <string name="equipo_2">Equipo B</string>
+    <string name="marcador_1">0</string>
+    <string name="marcador_2">0</string>
+    <string name="reiniciar">Reiniciar</string>
+    <string name="Gol">Gol</string>
+</resources>
